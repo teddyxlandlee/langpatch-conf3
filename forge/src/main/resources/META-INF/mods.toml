@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+#issueTrackerURL = ""
+license = "LGPL-3.0-or-later"
+
+[[mods]]
+modId = "enchlevel_langpatch_conf3"
+version = "${version}"
+displayName = "Enchantment Level Language Patch Config"
+authors = "teddyxlandlee"
+description = '''
+Config extension for Enchlevel-LangPatch
+'''
+#logoFile = ""
+
+[[dependencies.enchlevel_langpatch_conf3]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.enchlevel_langpatch_conf3]]
+modId = "enchlevellangpatch"
+mandatory = true
+versionRange = "[1.2,)"
+ordering = "NONE"
+side = "BOTH"

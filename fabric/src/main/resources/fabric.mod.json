@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "enchlevel-langpatch-conf3",
+  "version": "${version}",
+  "name": "Enchantment Level Language Patch Config",
+  "description": "Config extension for Enchlevel-LangPatch",
+  "authors": [
+    "teddyxlandlee"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/enchlevel-langpatch-config2",
+    "sources": "https://github.com/teddyxlandlee/enchlevel-langpatch-conf3"
+  },
+  "icon": "assets/enchlevel-langpatch-conf3/icon.png",
+  "license": "LGPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xland.mcmod.enchlevellangpatch.ext.conf3.LangPatchConfig::init"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "enchlevel-langpatch": ">=1.2"
+  },
+  "breaks": {
+    "enchlevel-langpatch": "<1.2"
+  },
+  "provides": [
+    "enchlevel-langpatch-config",
+    "enchlevel-langpatch-config2"
+  ]
+}
+
