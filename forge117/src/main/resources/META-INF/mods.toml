@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[33,)"
+loaderVersion = "[37,)"
 #issueTrackerURL = ""
 license = "LGPL-3.0-or-later"
 
@@ -16,7 +16,7 @@ logoFile = "935d03af-fa71-4839-a8ac-10d52360807a.png"
 [[dependencies.langpatchconf]]
 modId = "forge"
 mandatory = true
-versionRange = "[33,37)"
+versionRange = "[37,)"
 ordering = "NONE"
 side = "BOTH"
 

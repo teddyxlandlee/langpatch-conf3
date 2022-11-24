@@ -19,6 +19,19 @@
       "xland.mcmod.enchlevellangpatch.ext.conf3.LangPatchConfig::init"
     ]
   },
+  "custom": {
+    "enchlevel-langpatch-conf3": {
+      "skipped_mods": [
+        {
+          "id": "eeemod",
+          "version": "<2.1"
+        }
+      ]
+    },
+    "modmenu": {
+      "parent": "enchlevel-langpatch"
+    }
+  },
   "depends": {
     "fabricloader": ">=0.14.0",
     "enchlevel-langpatch": ">=1.2"

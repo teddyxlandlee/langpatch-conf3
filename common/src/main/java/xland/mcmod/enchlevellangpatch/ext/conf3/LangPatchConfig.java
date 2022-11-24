@@ -31,7 +31,7 @@ public class LangPatchConfig {
     public void loadConfig() {
         try {
             Properties p = defaultProperties();
-            if (Files.isRegularFile(configurationFile)) {
+            if (Files.exists(configurationFile)) {
                 p = new Properties(p);
                 p.load(Files.newBufferedReader(configurationFile));
                 String s = p.getProperty("enchantment-cfg");

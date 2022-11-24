@@ -7,6 +7,12 @@ architectury {
     forge()
 }
 
+loom {
+    forge {
+        //mixinConfigs "ellp-conf3.self.mixins.json"
+    }
+}
+
 configurations {
     common
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
@@ -39,7 +45,7 @@ shadowJar {
 }
 
 remapJar {
-    input.set shadowJar.archiveFile
+    inputFile.set shadowJar.archiveFile
     dependsOn shadowJar
     classifier null
 }

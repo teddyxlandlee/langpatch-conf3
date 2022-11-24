@@ -9,6 +9,6 @@ import net.minecraftforge.fml.common.Mod;
 public class LangPatchConfigForge {
     @SuppressWarnings("unused")
     public static boolean is117Compatible() {
-        return false;
+        return true;
     }
 }
